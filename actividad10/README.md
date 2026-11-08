@@ -4,6 +4,8 @@
 
 Muestra el menú al menos una vez.
 
+Usa un bucle `do-while` que muestre el menú (`1. Saludar`, `2. Despedir`, `0. Salir`) y lea una opción: con `1` muestra `Hola`, con `2` muestra `Adiós` y con `0` sale del bucle. Al terminar muestra `Programa terminado`. No muestres otros mensajes (el test introduce `1` y `0`).
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -35,4 +37,5 @@ Programa terminado
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

@@ -4,6 +4,12 @@
 
 Combina for, while y do-while.
 
+1. Con un bucle `for`, muestra `For: ` y los números del 1 al 5 separados por espacios.
+2. Con un bucle `while`, lee números hasta `-1` (sin sumarlo) y muestra `Suma while: ` y la suma.
+3. Con un bucle `do-while`, muestra `Menú mostrado` y lee una opción; repite mientras la opción no sea `0`.
+
+No muestres mensajes para pedir los datos (el test introduce `3`, `4`, `-1` y `0`).
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -30,4 +36,5 @@ Menú mostrado
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

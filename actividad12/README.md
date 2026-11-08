@@ -4,6 +4,8 @@
 
 Acepta la clave o detente tras tres intentos.
 
+La contraseña correcta es `1234`. Lee contraseñas con `Scanner`: si es incorrecta muestra `Contraseña incorrecta`; si es correcta muestra `Acceso concedido` y termina. Tras tres intentos fallidos el programa debe detenerse sin pedir más (puedes mostrar `Acceso bloqueado`). No muestres mensajes para pedir los datos (el test introduce `1111`, `2222` y `1234`).
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -30,4 +32,5 @@ Acceso concedido
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

@@ -4,6 +4,8 @@
 
 Implementa ambas validaciones con el mismo resultado.
 
+Primero, con un bucle `while`, lee números hasta obtener uno no negativo y muestra `While válido: ` y el número. Después repite la misma validación con un bucle `do-while` y muestra `Do-while válido: ` y el número. No muestres mensajes para pedir los datos (el test introduce `-2`, `4`, `-3` y `5`).
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -29,4 +31,5 @@ Do-while válido: 5
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

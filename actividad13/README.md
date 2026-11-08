@@ -4,6 +4,8 @@
 
 Lee notas hasta -1 y calcula el promedio.
 
+Lee notas con `Scanner` hasta que se introduzca `-1` (que no cuenta), muestra cuántas notas se han leído y su promedio como número decimal. No muestres mensajes para pedir los datos (el test introduce `7`, `8`, `9` y `-1`).
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -29,4 +31,5 @@ Promedio: 8.0
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

@@ -4,6 +4,8 @@
 
 Repite la lectura y muestra la raíz cuadrada.
 
+Lee un número con `Scanner`. Mientras sea negativo, muestra `Número no válido` y vuelve a leer. Cuando sea válido, muestra `Raíz: ` seguido de `Math.sqrt(numero)`. No muestres mensajes para pedir los datos (el test introduce `-4` y `25`).
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -29,4 +31,5 @@ Raíz: 5.0
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.
