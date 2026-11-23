@@ -5,7 +5,7 @@ public class Actividad03 {
         int i = 10;
         while (i >= 0) {
             System.out.println(i);
-            i++;
+            i--;
         }
         System.out.println("Blast Off!");
     }

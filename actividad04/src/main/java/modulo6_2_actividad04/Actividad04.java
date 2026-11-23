@@ -6,6 +6,6 @@ public class Actividad04 {
         do {
             System.out.println(i);
             i++;
-        } while (i <= 3)
+        } while (i <= 3);
     }
 }

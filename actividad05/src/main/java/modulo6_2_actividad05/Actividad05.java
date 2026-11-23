@@ -9,7 +9,7 @@ public class Actividad05 {
         int value = 0;
         while (value != -1) {
             value = input.nextInt();
-            total += value;
+            if(value != -1) total += value;
         }
         System.out.println("Suma: " + total);
     }
